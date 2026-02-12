@@ -1,0 +1,468 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/chaneque",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "chaneque",
+    "name": "Chaneque",
+    "aliases": [
+      {
+        "name": "Chanekeh",
+        "language": "Nahuatl variant",
+        "region": "Mexico"
+      },
+      {
+        "name": "Ohuican Chaneque",
+        "language": "Nahuatl",
+        "region": "Mexico",
+        "meaning": "Those who inhabit dangerous places"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Folklore",
+    "tags": [
+      "nature-spirit",
+      "guardian",
+      "mexican-folklore",
+      "aztec-origin",
+      "indigenous",
+      "forest-spirit",
+      "trickster",
+      "small-humanoid"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Mexican nature spirits or guardians from Aztec and indigenous origins. Small humanoid beings, childlike in appearance, that protect forests and animals while punishing those who harm nature.",
+      "full": "Chaneques are small humanoid nature spirits from Mexican indigenous folklore, particularly Aztec and pre-Columbian traditions. Described as childlike beings standing 2-3 feet tall, they serve as guardians and protectors of forests, animals, and natural resources. Chaneques are known for their mischievous and sometimes dangerous behavior—they can cause illness or madness, steal souls (particularly of children), and lead people astray in forests. Traditional beliefs are strongest in Oaxaca, Veracruz, and indigenous communities throughout Mexico. Their behavior includes leading travelers astray, punishing those who harm nature, and acting as guardians against overexploitation of natural resources. Modern sightings continue in rural Mexico where indigenous communities maintain these beliefs. Chaneques are related to duendes, fairies, nature spirits, and elemental beings from other cultures. They serve an important cultural function as environmental protection folklore and cautionary tales."
+    },
+    "etymology": {
+      "origin": "From Nahuatl language of the Aztec civilization",
+      "meaning": "Derived from 'ohuican chaneque' - those who inhabit dangerous places, or 'house dwellers/guardians'",
+      "first_use": "Pre-Columbian Aztec and indigenous traditions"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Folklore",
+      "subtype": "Nature spirit / Guardian",
+      "variant": "Mexican / Mesoamerican"
+    },
+    "related_phenomena": [
+      {
+        "id": "duendes",
+        "name": "Duendes",
+        "relationship": "similar",
+        "description": "Spanish/Latin American household and forest spirits"
+      },
+      {
+        "id": "fairies",
+        "name": "Fairies",
+        "relationship": "similar",
+        "description": "European nature spirits with similar trickster qualities"
+      },
+      {
+        "id": "elemental-spirits",
+        "name": "Elemental Spirits",
+        "relationship": "similar",
+        "description": "Nature guardians and spirits worldwide"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.6,
+        "max": 1.0,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "weight": {
+        "min": 10,
+        "max": 25,
+        "unit": "kilograms",
+        "confidence": "low"
+      },
+      "coloration": [
+        "dark skin",
+        "brown",
+        "green-tinted (some accounts)"
+      ],
+      "features": [
+        {
+          "feature": "Childlike appearance",
+          "description": "Small humanoid beings resembling children, 2-3 feet tall",
+          "frequency": "always"
+        },
+        {
+          "feature": "Feet",
+          "description": "Backwards-facing feet in many traditions",
+          "frequency": "common"
+        },
+        {
+          "feature": "Clothing",
+          "description": "Traditional indigenous clothing or leaves and natural materials",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Face",
+          "description": "Childlike face, sometimes described as old or wrinkled despite small size",
+          "frequency": "common"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Large, dark eyes",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Small humanoid beings with childlike proportions. Often described with backwards feet to confuse trackers. Appearance varies by region and specific tradition."
+    },
+    "abilities": [
+      {
+        "ability": "Soul theft",
+        "description": "Can steal souls, particularly from children, causing illness or death",
+        "frequency": "traditional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Disorientation",
+        "description": "Lead people astray in forests, causing them to become lost",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Illness causation",
+        "description": "Cause illness, madness, or bad luck to those who disrespect nature",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Invisibility",
+        "description": "Can become invisible or blend with forest surroundings",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Nature control",
+        "description": "Influence over plants, animals, and natural elements",
+        "frequency": "traditional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Shapeshifting",
+        "description": "Some traditions describe ability to change form",
+        "frequency": "rare",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "variable",
+      "disposition": "protective to neutral to dangerous",
+      "social_structure": "groups or solitary",
+      "habitat_preference": [
+        "forests",
+        "jungles",
+        "caves",
+        "rivers",
+        "natural springs",
+        "remote wilderness"
+      ],
+      "diet": "Not applicable (spiritual beings)",
+      "patterns": [
+        "Protect forests and animals",
+        "Punish those who harm nature",
+        "Steal children's souls",
+        "Lead travelers astray",
+        "Guard natural resources",
+        "Mischievous behavior"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily throughout Mexico, especially in regions with strong indigenous traditions. Strongest in Oaxaca, Veracruz, and rural indigenous communities.",
+      "continents": ["North America"],
+      "countries": ["Mexico"],
+      "regions": [
+        "Oaxaca",
+        "Veracruz",
+        "Southern Mexico",
+        "Indigenous communities nationwide"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Oaxaca indigenous communities",
+        "location": {
+          "description": "Rural Oaxaca state",
+          "country": "Mexico",
+          "region": "Oaxaca",
+          "coordinates": {
+            "latitude": 17.0732,
+            "longitude": -96.7266,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 200,
+        "peak_period": "Ongoing tradition",
+        "notes": "Strong indigenous beliefs persist"
+      },
+      {
+        "name": "Veracruz forests",
+        "location": {
+          "description": "Veracruz state forests and rural areas",
+          "country": "Mexico",
+          "region": "Veracruz",
+          "coordinates": {
+            "latitude": 19.5438,
+            "longitude": -96.9102,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 150,
+        "peak_period": "Ongoing tradition",
+        "notes": "Traditional beliefs in rural communities"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-Columbian",
+        "circa": true,
+        "source": "Aztec and pre-Columbian indigenous traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Pre-Columbian to present",
+          "description": "Continuous living tradition in indigenous communities"
+        }
+      ],
+      "seasonal_patterns": "Reports year-round; some traditions link to specific ceremonies or seasons"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Chaneques originate from Aztec and pre-Columbian Mesoamerican beliefs, serving as nature guardians and spirits of wild places. They are part of a complex indigenous spiritual worldview.",
+      "earliest_accounts": "Pre-Columbian Aztec codices and oral traditions dating back centuries before Spanish contact.",
+      "folklore_connections": "Connected to broader Mesoamerican nature spirit traditions and beliefs about the relationship between humans and nature."
+    },
+    "timeline": [
+      {
+        "date": "Pre-Columbian",
+        "event": "Aztec and indigenous traditions established",
+        "significance": "Chaneque beliefs integral to Aztec and Mesoamerican cosmology",
+        "source": "Indigenous oral traditions and codices"
+      },
+      {
+        "date": "1500s",
+        "event": "Spanish colonization",
+        "significance": "Traditions persist despite Catholic influence; syncretism occurs",
+        "source": "Colonial records"
+      },
+      {
+        "date": "1900s-present",
+        "event": "Continued living tradition",
+        "significance": "Indigenous communities maintain Chaneque beliefs; documented by anthropologists",
+        "source": "Anthropological studies, community traditions"
+      }
+    ],
+    "modern_era": "Chaneque beliefs remain active in rural and indigenous Mexican communities, particularly in Oaxaca and Veracruz. The tradition serves both spiritual and practical functions, encouraging environmental protection and respect for nature."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 500,
+      "verified": 0,
+      "disputed": 500,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Pre-Columbian",
+        "latest": "2026"
+      }
+    },
+    "notable": [
+      {
+        "id": "chaneque-encounter-ongoing",
+        "name": "Ongoing rural Mexican encounters",
+        "date": {
+          "value": "Continuous",
+          "precision": "ongoing"
+        },
+        "location": {
+          "description": "Rural Oaxaca and Veracruz communities",
+          "country": "Mexico",
+          "region": "Southern Mexico",
+          "coordinates": {
+            "latitude": 17.0,
+            "longitude": -96.0,
+            "precision": "regional"
+          }
+        },
+        "witnesses": {
+          "count": 100,
+          "types": ["Indigenous community members", "Rural residents"],
+          "credibility_factors": ["Cultural tradition", "Multiple independent accounts"]
+        },
+        "description": "Continuous reports from indigenous communities in Oaxaca, Veracruz, and other regions of encounters with small forest spirits matching Chaneque descriptions. Accounts include children being led astray, illnesses attributed to disrespecting nature, and protective functions of the spirits.",
+        "conditions": {
+          "weather": "Variable",
+          "visibility": "Variable",
+          "time_of_day": "Variable",
+          "duration": "Variable"
+        },
+        "evidence": [
+          "Community testimony",
+          "Cultural traditions",
+          "Anthropological documentation"
+        ],
+        "credibility": {
+          "rating": "cultural",
+          "factors": [
+            "Living indigenous tradition",
+            "Cultural and spiritual significance",
+            "Serves environmental protection function",
+            "Not cryptozoological phenomenon"
+          ],
+          "notes": "Chaneques are spiritual and cultural beings, not cryptids. Encounters should be understood in cultural context."
+        },
+        "sources": [
+          "Indigenous community oral traditions",
+          "Anthropological field studies"
+        ],
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Nature spirits",
+        "description": "Chaneques are actual spiritual entities that guard forests and punish environmental harm",
+        "proponents": ["Indigenous traditional beliefs"],
+        "evidence_cited": ["Living tradition", "Cultural continuity", "Spiritual experiences"]
+      }
+    ],
+    "scientific": [],
+    "skeptical": [
+      {
+        "name": "Cultural folklore",
+        "description": "Chaneques are purely mythological beings serving important cultural and environmental functions",
+        "proponents": ["Anthropologists", "Folklorists"],
+        "evidence_cited": ["No physical evidence", "Serves cautionary tale function", "Environmental protection tool", "Cultural transmission"]
+      },
+      {
+        "name": "Psychological and social function",
+        "description": "Belief serves to regulate human behavior toward nature and protect children from wilderness dangers",
+        "proponents": ["Cultural anthropologists"],
+        "evidence_cited": ["Behavioral modification function", "Child safety mechanism", "Resource management tool"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Aztec and pre-Columbian nature guardian traditions",
+        "Oaxacan indigenous spiritual beliefs",
+        "Veracruz rural folklore",
+        "Mesoamerican nature spirit cosmology"
+      ],
+      "stories": [
+        "Children stolen by Chaneques",
+        "Hunters punished for disrespecting animals",
+        "Travelers led astray in forests",
+        "Rituals to appease or protect from Chaneques"
+      ],
+      "beliefs": "Chaneques serve as guardians of nature, punishing those who harm forests or animals. They can steal children's souls, cause illness, and lead people astray. Respect for nature and proper rituals can protect against their mischief."
+    },
+    "indigenous": {
+      "cultures": [
+        "Nahua (Aztec descendants)",
+        "Zapotec",
+        "Mixtec",
+        "Various Oaxacan indigenous groups",
+        "Veracruz indigenous communities"
+      ],
+      "significance": "Chaneques are integral to indigenous Mexican spiritual worldview and relationship with nature. They embody the principle that nature must be respected and protected, serving both spiritual and ecological functions.",
+      "sensitivity_note": "Chaneque beliefs are living indigenous traditions in Mexico. These are sacred cultural beliefs that should not be appropriated, mocked, or misrepresented. They represent indigenous environmental wisdom and spiritual practice.",
+      "respect_guidelines": "Consult with indigenous communities and respect their spiritual traditions. Recognize Chaneques as part of living indigenous culture, not merely folklore or entertainment. Do not trivialize or appropriate these beliefs."
+    },
+    "popular_culture": {
+      "literature": [
+        "Mexican folklore collections",
+        "Children's stories and cautionary tales",
+        "Anthropological studies of Mesoamerican beliefs"
+      ],
+      "film_tv": [
+        "Mexican cultural documentaries",
+        "References in Mexican media and literature"
+      ],
+      "games": [],
+      "other": [
+        "Part of Mexican cultural identity",
+        "Environmental education tool",
+        "Tourism in some regions (handled sensitively)"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "Chaneques are studied primarily from anthropological, folkloric, and cultural perspectives rather than cryptozoological. Research focuses on indigenous belief systems and cultural functions."
+  },
+
+  "sources": [
+    {
+      "id": "indigenous-traditions",
+      "type": "cultural",
+      "title": "Mexican indigenous oral traditions",
+      "description": "Nahua, Zapotec, Mixtec, and other indigenous traditions regarding Chaneques",
+      "note": "Living traditions requiring cultural sensitivity and respect"
+    },
+    {
+      "id": "anthropological-studies",
+      "type": "academic",
+      "title": "Anthropological field studies",
+      "description": "Academic research on Mesoamerican nature spirit beliefs and cultural functions",
+      "note": "Various anthropological journals and books"
+    },
+    {
+      "id": "folklore-collections",
+      "type": "cultural",
+      "title": "Mexican folklore collections",
+      "description": "Documented folk tales and traditions regarding Chaneques",
+      "note": "Cultural heritage preservation"
+    }
+  ]
+}
